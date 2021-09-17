@@ -1,0 +1,492 @@
+@import "others.css";
+
+@media only screen and (max-width: 1340px){
+
+    /*Intro Section*/
+    .intro-header {
+        color: #FF7A00; 
+        font-weight: bolder;
+        margin: 0em;
+        padding: 0em;
+    }
+    .intro-words {
+        margin: 15px auto 15px 0px;
+        padding: 0em;
+        font-size: 2em;
+    }
+    .intro-image {
+        margin: 0em;
+        width: 60%;
+        padding: 0em;
+    }
+    /*Form Section*/
+    .popupContact {
+        left:45%;
+        top:5%;
+        margin-left:-202px;
+    }
+}
+
+@media only screen and (max-width: 1000px){
+    /*Navigation Section*/
+    .nav-list {
+        list-style: none;
+        display: flex;
+        margin: 0px 40px 0px 80px;
+        padding: 0em !important;
+    }
+    /*Form Section*/
+    .popupContact {
+        left:40%;
+        top:5%;
+        margin-left:-222px;
+    }
+    /*Footer Styles*/
+    .ems-down {
+        margin-left: 2em;
+    }
+    .footer-word {
+        margin-right: 4em;
+        font-size: 1.6em;
+    }
+}
+
+@media only screen and (max-width: 860px){
+
+    .grid-container {
+        display: grid;
+        grid-gap: 1em 0em;
+        grid-template-areas:
+        "auto auto";
+    }
+    /*Navigation Section*/
+    .nav-list {
+        list-style: none;
+        display: flex;
+        margin: 0px 25px 0px 50px;
+        padding: 0em !important;
+    }
+    .nav-link {
+        margin: 7px;
+        padding: 7px;
+        text-decoration: none;
+        font-size: 1.2em;
+        font-weight: bolder;
+        cursor: pointer;
+    }
+    /*Intro Section*/
+    .intro-header {
+        color: #FF7A00; 
+        font-weight: bolder;
+        margin: 0em;
+        padding: 0em;
+    }
+    .intro-words {
+        margin: 10px auto 10px 0px;
+        padding: 0em;
+        font-size: 1.8em;
+    }
+    .intro-image {
+        margin: 0em;
+        width: 50%;
+        padding: 0em;
+    }
+    /*Form Section*/
+    .popupContact {
+        position:absolute;
+        left:35%;
+        top:5%;
+        margin-left:-232px;
+        width: 80%;
+    }
+    /*Other Form Section*/
+    #empty-alert {
+      width: 85%;
+    }
+    #completion {
+      width: 85%;
+    }
+    /*Footer Styles*/
+    .ems-down {
+        margin-left: 2em;
+    }
+    .footer-word {
+        margin-right: 4em;
+        font-size: 1.4em;
+    }
+}
+@media only screen and (max-width: 790px){
+    /*Form Section*/
+    .popupContact {
+        position:absolute;
+        left:35%;
+        top:5%;
+        margin-left:-222px;
+        width: 90%;
+    }
+    /*Other Form Section*/
+    #empty-alert {
+      width: 85%;
+    }
+    #completion {
+      width: 85%;
+    }
+}
+@media only screen and (max-width: 700px){
+
+    /*Navigation Section*/
+    .nav-list {
+        list-style: none;
+        display: flex;
+        margin: 0px 0px 0px 30px;
+        padding: 0em !important;
+    }
+    .nav-link {
+        margin: 5px;
+        padding: 5px;
+        text-decoration: none;
+        font-size: 1.2em;
+        font-weight: bolder;
+        cursor: pointer;
+    }
+     /*Intro Section*/
+     .intro-header {
+        color: #FF7A00; 
+        font-weight: bolder;
+        margin: 0em;
+        padding: 0em;
+    }
+    .intro-words {
+        margin: 10px auto 10px 0px;
+        padding: 0em;
+        font-size: 1.5em;
+    }
+    .intro-image {
+        margin: 0em;
+        width: 50%;
+        padding: 0em;
+    }
+    /*Footer Styles*/
+    .ems-down {
+        margin-left: 1em;
+    }
+    .footer-word {
+        margin-right: 2em;
+        font-size: 1.2em;
+    }
+    /*Form Section*/
+    .popupContact {
+        position:absolute;
+        left:35%;
+        top:5%;
+        margin-left:-172px;
+        width: 85%;
+    }
+    form {
+      width: 80%;
+    }
+    /*Inner Form Section*/
+    .cart-table {
+        border-spacing: 10px;
+        border-collapse: separate;
+    }
+    /*Other Form Section*/
+    #empty-alert {
+      width: 80%;
+    }
+    #completion {
+      width: 80%;
+    }
+}
+@media only screen and (max-width: 615px){
+
+    /*Form Section*/
+    .popupContact {
+        position:absolute;
+        left:35%;
+        top:5%;
+        margin-left:-152px;
+        width: 80%;
+    }
+    form {
+        width: 77%;
+    }
+    /*Inner Form Section*/
+    .cart-table {
+        border-spacing: 5px;
+        border-collapse: collapse;
+      }
+    /*Other Form Section*/
+    #empty-alert {
+      width: 77%;
+    }
+    #completion {
+      width: 77%;
+    }
+}
+@media only screen and (max-width: 570px){
+    
+    .shop-section {
+        background-color: white;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        margin: 0em;
+      }
+      .shop-topic {
+        font-size: 2em;
+        font-weight: bolder;
+        margin: 0.4em;
+        display: flex;
+        justify-content: center;
+      }
+    .grid-container {
+        display: grid;
+        grid-gap: 0em 0em;
+        grid-template-areas:
+        "auto";
+        width: 80%;
+    }
+    /*Navigation Section*/
+    .nav-logo {
+        margin: 0px;
+        width: 8.5em;
+    }
+    
+    .nav-list {
+        list-style: none;
+        display: flex;
+        margin: 0px 0px 0px 20px;
+        padding: 0em !important;
+    }
+    .nav-link {
+        margin: 2px;
+        padding: 2px;
+        text-decoration: none;
+        font-size: 1.2em;
+        font-weight: bolder;
+        cursor: pointer;
+    }
+    /*Cart Section*/
+    .cart {
+        margin: 0px;
+        text-decoration: none;
+    }
+    .cart-button {
+        margin: 3em 1em;
+        background-color: #FF7A00;
+        display: flex;
+        flex-flow: row nowrap;
+        border-radius: 26px;
+    }
+    .cart-number {
+        font-size: 3em;
+        margin: 0em 0.3em 0em 0.7em;
+        font-weight: bolder;
+        color: whitesmoke;
+    }
+    /*Intro Section*/
+    .intro-header {
+        color: #FF7A00; 
+        font-weight: bolder;
+        margin: 0em;
+        padding: 0em;
+    }
+    .intro-words {
+        margin: 10px auto 10px 0px;
+        padding: 0em;
+        font-size: 1.5em;
+    }
+    .intro-image {
+        margin: 0em;
+        width: 46%;
+        padding: 0em;
+    }
+    .intro-button {
+        font-size: 1.6em;
+        font-weight: bolder;
+        background-color: #FF7A00;
+        margin-top: auto;
+        margin-bottom: 1em;
+        padding: 0.4em 0.5em 0.4em 0.5em;
+        color: white;
+    }
+    /*Form Section*/
+    .popupContact {
+        position:absolute;
+        left:35%;
+        top:5%;
+        margin-left:-162px;
+        width: 90%;
+    }
+    form {
+        width: 76%;
+        font-size: 0.9em;
+    }
+    /*Other Form Section*/
+    #empty-alert {
+      width: 76%;
+    }
+    #completion {
+      width: 76%;
+    }
+    /*Inner Form Section*/
+    .cart-table {
+        border-spacing: 0px;
+        border-collapse: collapse;
+    }
+    .amount{
+      font-weight: bolder;
+      font-size: 1.2em;
+      margin: 0.2em;
+    }
+    .continue {
+        font-size:13px;
+        padding:8px 0;
+    }
+    .checkout {
+        border: 2px solid sienna;
+        font-size:15px;
+        padding:8px 0;
+    }
+    /*Footer Styles*/
+    .ems-down {
+        margin-left: 0em;
+    }
+    .footer-word {
+        margin-right: 0em;
+        font-size: 1.2em;
+    }
+}
+@media only screen and (max-width: 480px){
+
+    .shop-section {
+        background-color: white;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        margin: 0em;
+      }
+      .shop-topic {
+        font-size: 2em;
+        font-weight: bolder;
+        margin: 0.4em;
+        display: flex;
+        justify-content: center;
+      }
+    .grid-container {
+        display: grid;
+        grid-gap: 0em 0em;
+        grid-template-areas:
+        "auto";
+        width: 80%;
+    }
+    
+    /*Navigation Section*/
+    .nav-logo {
+        margin: 0px;
+        width: 6em;
+    }
+    nav {
+        height: 3em;
+    }
+    .nav-list {
+        list-style: none;
+        display: flex;
+        margin: 0px 0px 0px 15px;
+        padding: 0em !important;
+    }
+    .nav-link {
+        margin: 2px;
+        padding: 2px;
+        text-decoration: none;
+        font-size: 1.1em;
+        font-weight: bolder;
+        cursor: pointer;
+    }
+    /*Cart Section*/
+    .cart {
+        margin: 0px;
+        text-decoration: none;
+        width: 7em;
+    }
+    .cart-button {
+        margin: 1em 0.5em;
+        background-color: #FF7A00;
+        display: flex;
+        flex-flow: row nowrap;
+        border-radius: 26px;
+    }
+    .cart-number {
+        font-size: 2em;
+        margin: 0.1em 0.3em 0em 0.3em;
+        font-weight: bolder;
+        color: whitesmoke;
+    }
+    .cart-image{
+        height: 2.7em;
+    }
+    /*Intro Section*/
+    .intro-header {
+        color: #FF7A00; 
+        font-weight: bolder;
+        margin: 0em;
+        padding: 0em;
+    }
+    .intro-words {
+        margin: 10px auto 10px 0px;
+        padding: 0em;
+        font-size: 1em;
+    }
+    .intro-image {
+        margin: 0em;
+        width: 46%;
+        padding: 0em;
+    }
+    .intro-button {
+        font-size: 1.6em;
+        font-weight: bolder;
+        background-color: #FF7A00;
+        margin-top: auto;
+        margin-bottom: 1em;
+        padding: 0.4em 0.5em 0.4em 0.5em;
+        color: white;
+    }
+    /*Footer Styles*/
+    .ems-down {
+        margin-left: 0em;
+        width: 18%;
+    }
+    .footer {
+        height: 1.8em;
+    }
+    .footer-word {
+        margin-right: 0em;
+        font-size: 0.8em;
+    }
+    /*Form Section*/
+    .popupContact {
+        position:absolute;
+        left:40%;
+        top:5%;
+        margin-left:-162px;
+        width: 87%;
+    }
+    form {
+        width: 76%;
+        font-size: 0.8em;
+    }
+    /*Inner Form Section*/
+    .cart-table {
+        border-spacing: 0px;
+        border-collapse: collapse;
+        width: 120%;
+      }
+    /*Other Form Section*/
+    #empty-alert {
+      width: 76%;
+    }
+    #completion {
+      width: 76%;
+    }
+}

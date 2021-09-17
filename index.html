@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta content="ie=edge chrome=1" http-equiv="X-UA-Compatible">
+	<link href="https://fonts.googleapis.com/css?family=Fira+Sans:900|Merriweather&display=swap" rel="stylesheet">
+	<link href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" rel="stylesheet">
+	<link href="./css/style.css" rel="stylesheet">
+	<title>E-MILLENIAL STORE</title>
+	<script src="https://js.paystack.co/v1/inline.js"></script>
+</head>
+<body>
+	<nav>
+		<img class="nav-logo ems-up" src="./Images/EMS.svg" alt="EMS"/>
+		<ul class="nav-list">
+			<li class="first-navs">
+				<a class="intro nav-link">Intro</a>
+				<a class="about nav-link">About</a>
+				<a class="shop nav-link">Shop</a>
+			</li>
+		</ul>
+		<a href="#" class="cart">
+			<p class="cart-button">
+				<img class="cart-image" src="./Images/cart.svg">
+				<span class="cart-number">0</span>
+			</p>
+		</a>
+	</nav>
+	<div id="completed">
+		<div class="popupContact">
+			<div id="completion">
+				<p class="opening-text"></p>
+				<h2>Summary Order</h2>
+				<table class="cart-table" cellpadding="6" cellspacing="20">
+					<thead>
+						<tr>
+							<th>S/N</th>
+							<th>Item</th>
+							<th>Product</th>
+							<th>Quantity</th>
+						</tr>
+					</thead>
+					<tbody id="last-table"></tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+	<div id="empty">
+		<div class="popupContact">
+			<div id="empty-alert">
+				<img id="first-close" src="images/cancel.png"/>
+				<p>Empty Cart</p>
+			</div>
+		</div>
+	</div>
+	<div id="abc">
+	<div class="popupContact">
+		<form action="#" id="form" class="" method="POST">
+			<img id="second-close" src="images/cancel.png"/>
+			<h2 class="contact-header">Orders:</h2>
+			<table class="cart-table" cellpadding="6" cellspacing="20">
+				<thead>
+					<tr>
+						<th>S/N</th>
+						<th>Item</th>
+						<th>Price</th>
+						<th>Quantity</th>
+						<th>Buttons</th>
+					</tr>
+				</thead>
+				<tbody id="first-table"></tbody>
+			</table>
+			<hr/>
+			<input id="name-input" class="name" name="name" placeholder="Name" type="text"/>
+			<div id="name"></div>
+			<input id="email-input" class="email" name="email" placeholder="Email" type="text"/>
+			<div id="email"></div>
+			<input id="number-input" class="number" name="number" placeholder="Mobile No" type="number" minlength="12">
+			<div id="number"></div>
+			<div class="balance-section">
+				<p class="amount" >Total Amount to be Paid</p>
+				<p class="total"></p>
+			</div>
+			<div class="cart-actions">
+				<button href="#" class="continue" type="button">Continue Shopping</button>
+				<button href="#" class="checkout" type="submit">Checkout</button>
+			</div>
+		</form>
+	</div>
+</div>
+	<section class="intro-section">
+		<div class="intro-area">
+			<h2 class="intro-header">
+				<p class="intro-words">THE</p>
+				<p class="intro-words">E-MILLENIAL</p>
+				<p class="intro-words">STORE</p>
+			</h2>
+			<img class="intro-image" src="./Images/heroImage.png" alt="heroImage"/>
+		</div>
+		<button class="intro-button">SHOP NOW</button>
+	</section>
+	<section class="about-section">
+		E-Millenial Store is a hypothetical online store for gadgets we believe every millenial
+		or Gen-Z should have today. We have got mobile phones, laptops smartwatches and other gadgets.
+		Explore all our gadgets and choose the ones the suit you.
+	</section>
+	<section class="shop-section">
+		<p class="shop-topic">OUR GADGETS</p>
+		<div class="grid-container"></div>
+	</section>
+	<footer class="footer">
+		<img class="ems-down" src="./Images/EMS.svg" alt="EMS"/>
+		<p class="footer-word">Designed and crafted by a frontend ninja</p>
+	</footer>
+	<script type="text/javascript" src="./js/index.js"></script>
+</body>
+</html>

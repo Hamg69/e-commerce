@@ -1,0 +1,429 @@
+body {
+    background-color: peachpuff;
+    margin: 0em;
+}
+
+/*Navigation Section*/
+nav {
+    background-color: rgb(245, 200, 161);
+    margin: 0em;
+    padding: 0px;
+    height: 4em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-logo {
+    margin: 0px;
+}
+.nav-list {
+    list-style: none;
+    display: flex;
+    margin: 0px 120px 0px 160px;
+    padding: 0em !important;
+}
+.first-navs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-link {
+    margin: 17px;
+    padding: 17px;
+    text-decoration: none;
+    font-size: 1.4em;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.nav-link:hover {
+    background-color: #df6d02;
+}
+/*Cart Section*/
+.cart {
+    margin: 0px;
+    text-decoration: none;
+}
+.cart-button {
+    margin: 4em 2em;
+    background-color: #FF7A00;
+    display: flex;
+    flex-flow: row nowrap;
+    border-radius: 26px;
+}
+.cart-number {
+    font-size: 3em;
+    margin: 0em 0.3em 0em 0.7em;
+    font-weight: bolder;
+    color: whitesmoke;
+}
+
+/*Hiding the Form Section*/
+#completed {
+  width:100%;
+  height:100%;
+  opacity:.95;
+  top:0;
+  left:0;
+  display:none;
+  position:fixed;
+  background-color:#313131;
+  overflow:auto;
+  z-index: 1;
+  }
+#empty {
+  width:100%;
+  height:100%;
+  opacity:.95;
+  top:0;
+  left:0;
+  display:none;
+  position:fixed;
+  background-color:#313131;
+  overflow:auto;
+  z-index: 1;
+  }
+#abc {
+  width:100%;
+  height:100%;
+  opacity:.97;
+  top:0;
+  left:0;
+  display:none;
+  position:fixed;
+  background-color:#313131;
+  overflow:auto;
+  z-index: 1;
+  }
+.popupContact {
+  position:absolute;
+  left:50%;
+  top:7%;
+  margin-left:-205px;
+  font-family:'Raleway',sans-serif
+  }
+  /*Other Form Section*/
+  #completion {
+    width:600px;
+    padding:10px 50px;
+    border:2px solid gray;
+    border-radius:10px;
+    font-family:raleway;
+    background-color:#fff;
+  }
+  #empty-alert {
+    width:600px;
+    padding:10px 50px;
+    border:2px solid gray;
+    border-radius:10px;
+    font-family:raleway;
+    background-color:#fff;
+  }
+  /*Form Section*/
+  form {
+    max-width:600px;
+    padding:10px 50px;
+    border:2px solid gray;
+    border-radius:10px;
+    font-family:raleway;
+    background-color:#fff;
+  }
+  .number::-webkit-outer-spin-button,
+  .number::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+  #first-close {
+    position:absolute;
+    right:-14px;
+    top:-14px;
+    cursor:pointer;
+    width: 3%;
+  }
+  #second-close {
+    position:absolute;
+    right:-14px;
+    top:-14px;
+    cursor:pointer;
+    width: 3%
+  }
+  .contact-header {
+    background-color:#FEFFED;
+    padding:3px 0px;
+    margin:0px;
+    text-align: left;
+    border-radius:10px 10px 0 0;
+  }
+  
+  /*Inner Form Section*/
+  .cart-table {
+    display: block;
+    text-align:center;
+    border-radius:10px 10px 0 0;
+  }
+  .adjust-cart{
+    display: flex;
+    flex-flow: row;
+  }
+  .bar{
+    margin: 3px;
+  }
+  .fas{
+    font-size: 1.2em;
+    cursor: pointer;
+    color: #e90707;
+  }
+  .fa-plus-circle{
+    color: #2dc02d;
+  }
+  hr {
+    margin:20px -50px;
+    border:0;
+    border-top:2px solid #ccc
+  }
+  input {
+    width:82%;
+    padding:10px;
+    margin-top:30px;
+    border: 2px solid rgb(88, 88, 88);
+    border-radius: 5px;
+    padding-left:40px;
+    font-size:16px;
+    background-color:peachpuff;
+    font-family:raleway
+  }
+  .name {
+    background-position:5px 7px;
+    font-size: 1em;
+    font-weight: bolder;
+    margin-top: 0em;
+  }
+  #name {
+    font-size: 0.9em;
+    font-weight: 400;
+    color: red;
+    margin: 0.5em 0em 0em 1em;
+  }
+  .email {
+    background-position:5px 7px;
+    font-size: 1em;
+    font-weight: bolder;
+  }
+  #email {
+    font-size: 0.9em;
+    font-weight: 400;
+    color: red;
+    margin: 0.5em 0em 0em 1em;
+  }
+  .number {
+    background-position:5px 7px;
+    font-size: 1em;
+    font-weight: bolder;
+  }
+  #number {
+    font-size: 0.9em;
+    font-weight: 400;
+    color: red;
+    margin: 0.5em 0em 0em 1em;
+  }
+  .invalid-input{
+    border: 2.2px solid red;
+  }
+  .valid-input{
+    border: 2px solid rgb(114, 114, 114);
+  }
+  .continue {
+      width:100%;
+      background-color: #FFCD9E;
+      color: black;
+      padding:10px 0;
+      margin: 0.4em;
+      font-size:20px;
+      cursor:pointer;
+      border-radius:6px
+  }
+  .checkout {
+      width:100%;
+      background-color:#FF7A00;
+      color:#fff;
+      padding:10px 0;
+      margin: 0.4em;
+      font-size:20px;
+      cursor:pointer;
+      border-radius:6px
+  }
+  .balance-section{
+    display: flex;
+    margin-top:30px;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .amount{
+    font-weight: bolder;
+    font-size: 1.6em;
+    margin: 0.2em;
+  }
+  .total{
+    font-weight: bolder;
+    font-size: 2em;
+    margin: 0.2em;
+  }
+  .cart-actions{
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-end;
+    align-items: center;
+  }
+/*Intro Section*/
+.intro-area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0em;
+    padding: 0em;
+}
+.intro-header {
+    color: #FF7A00; 
+    font-weight: bolder;
+    margin: 0em 0em 2em 0.8em;
+    padding: 0em 0em 0em 0.8em;
+}
+.intro-words {
+    margin: 15px auto 15px 15px;
+    padding: 0em 0em 0em 0.1em;
+    font-size: 2em;
+}
+.intro-image {
+    margin: 0em 0em auto 0em;
+    width: 70%;
+    padding: 0em 0em 0em 0em;
+}
+.intro-button {
+    font-size: 2.2em;
+    font-weight: bolder;
+    background-color: #FF7A00;
+    margin-top: auto;
+    margin-bottom: 1.3em;
+    padding: 0.4em 0.9em 0.4em 0.9em;
+    color: white;
+}
+.intro-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+}
+
+/*About Section*/
+.about-section {
+    text-align: justify;
+    font-size: 1em;
+    font-weight: bolder;
+    background-color: black;
+    color: white;
+    padding: 3em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*Shop Section*/
+  .shop-section {
+    background-color: white;
+    display: flex;
+    flex-flow: column;
+    margin: 0em;
+  }
+  .shop-topic {
+    font-size: 3em;
+    font-weight: bolder;
+    margin: 0.4em;
+    display: flex;
+    justify-content: center;
+  }
+
+  /* Grid Image Section*/
+  .grid-container {
+    display: grid;
+    grid-gap: 0em 0em;
+    padding: 0em;
+    grid-template-areas:
+    "auto auto auto";
+  }
+  /* Product Image Section*/
+  .product-figure {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+  }
+  .product-image{
+    display: block;
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 9px;
+    margin: 0px;
+    padding: 0%;
+  }
+  .product-header{
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .product-button{
+    background-color: #FF7A00;
+    padding: 0.7em 2.5em 0.7em 2.5em;
+    font-size: 1em;
+    font-weight: bolder;
+  }
+  /* Image Effects Section*/
+  .container {
+    position: relative;
+    width: 90%;
+  }
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color:black;
+  }
+  .container:hover .product-image {
+    opacity: 0.5;
+  }
+  .container:hover .overlay {
+    opacity: 0.7;
+  }
+  .text {
+    color: white;
+    font-size: 2em;
+    font-weight: bolder;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  /*Footer Styles*/
+  .footer {
+    text-align: justify;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .ems-down {
+      margin-left: 5em;
+  }
+  .footer-word {
+      margin-right: 8em;
+      font-size: 1.8em;
+  }
+
